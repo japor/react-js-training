@@ -1,0 +1,13 @@
+.Header {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header>h1 {
+  margin: 0;
+  padding: 0;
+}

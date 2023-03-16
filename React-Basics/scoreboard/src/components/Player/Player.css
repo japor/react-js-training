@@ -1,0 +1,29 @@
+.Player {
+  background-color: lightgray;
+  color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  margin: 2px 0;
+}
+
+.player-name {
+  margin-left: 20px;
+}
+
+.remove-player {
+  all: unset;
+  color: rgb(192, 192, 192);
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.remove-player:hover {
+  color: rgb(156, 156, 156);
+}
+
+.remove-player:active {
+  color: rgb(233, 102, 102);
+}
