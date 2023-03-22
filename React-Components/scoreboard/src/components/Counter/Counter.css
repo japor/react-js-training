@@ -1,0 +1,17 @@
+.Counter {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.counter-action {
+  height: 100%;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.counter-score {
+  width: 70px;
+  text-align: center;
+}
