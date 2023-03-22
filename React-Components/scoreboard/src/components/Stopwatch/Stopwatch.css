@@ -1,0 +1,17 @@
+.Stopwatch {
+    text-align: center;
+}
+
+.Stopwatch h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.Stopwatch .action {
+    margin-top: 10px;
+}
+
+.elapse-time {
+    font-size: 25px;
+}
