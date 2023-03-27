@@ -1,0 +1,50 @@
+.Player {
+  background-color: lightgray;
+  color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  margin: 2px 0;
+}
+
+.player-name {
+  margin-left: 20px;
+}
+
+.remove-player {
+  all: unset;
+  color: rgb(192, 192, 192);
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.remove-player:hover {
+  color: rgb(156, 156, 156);
+}
+
+.remove-player:active {
+  color: rgb(233, 102, 102);
+}
+
+/* ICONS */
+.Player svg {
+  width: 28px;
+  height: 19px;
+  margin-right: 5px;
+  fill: rgb(192, 192, 192);
+  margin-left: 20px;
+}
+
+.is-high-score {
+  fill: gold !important;
+  animation: grow 0.35s ease-in-out;
+  transform-origin: 50% 50%;
+}
+
+@keyframes grow {
+  50% {
+    transform: scale(1.4) rotate(-3deg);
+  }
+}
